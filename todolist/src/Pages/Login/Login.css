@@ -1,0 +1,106 @@
+.label-login {
+  font-size: x-large;
+  color: rgb(99, 197, 2);
+  margin: 10px 10px;
+}
+
+.btn {
+  width: 75%;
+  color: black;
+  background-color: rgb(99, 197, 2) !important;
+  margin-top: 20px;
+  transition: 0.2s;
+  letter-spacing: 3px;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 5px whitesmoke;
+  /* border: none; */
+}
+
+.main-card {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: rgb(0, 0, 0); */
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(65, 65, 65, 1) 100%
+  );
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+}
+
+.card-left {
+  font-size: xx-small;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-rigth {
+  /* margin-right: 105px; */
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.card-login {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.164);
+}
+
+.textfield {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: rgb(99, 197, 2);
+  font-weight: 500;
+}
+
+.input-login {
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 6px 5px 6px;
+  background-color: rgb(156, 156, 156);
+  color: black;
+  font-size: 10pt;
+  box-sizing: border-box;
+}
+
+.input-login:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.error-message {
+  color: red;
+}
+
+.registrar {
+  color: lawngreen;
+}
+
+.ir {
+  color: rgb(255, 0, 255);
+}
