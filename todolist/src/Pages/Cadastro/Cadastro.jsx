@@ -55,9 +55,9 @@ export default function Login() {
 
   return (
     <div className="main-card">
-      <div className="card-left">
+      {/* <div className="card-left">
         <h1 className="label-login">Espaço para a logo</h1>
-      </div>
+      </div> */}
       <div className="card-rigth">
         <form className="card-login">
           <h1 className="label-login">Bem Vindo!</h1>
