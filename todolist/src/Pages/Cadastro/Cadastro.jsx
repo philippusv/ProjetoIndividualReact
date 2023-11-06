@@ -48,7 +48,7 @@ export default function Login() {
         // Limpe os campos de entrada
         setLogin("");
         setSenha("");
-        navigate("/cadastro");
+        navigate("/login");
       }
     }
   };
@@ -87,9 +87,9 @@ export default function Login() {
           </div>
           {error && <p className="error-message">{error}</p>}
           <button className="btn" type="button" onClick={entrar}>
-            <Link to={"/Login"} className="botao">
-              Cadastrar
-            </Link>
+            {/* <Link to={"/Login"} className="botao"> */}
+            Cadastrar
+            {/* </Link> */}
           </button>
         </form>
       </div>
