@@ -2,9 +2,6 @@ import { useState } from "react";
 import Todo from "../../components/Todo";
 import TodoForm from "../../components/TodoForm";
 import Search from "../../components/Search";
-import Filter from "../../components/Filter";
-import Nav from "../../components/Navegacao/Nav";
-import Footer from "../../components/Footer/Footer";
 import "./PagTodo.css";
 
 function App() {
@@ -66,10 +63,8 @@ function App() {
 
   return (
     <div className="app">
-      {/* <Nav /> */}
       <h1>Lista de Tarefas</h1>
-      {/* <Search search={search} setSearch={setSearch} /> */}
-      <Filter filter={filter} setFilter={setFilter} />
+      <Search search={search} setSearch={setSearch} />
       <div className="todo-list">
         {todos
           .filter((todo) =>
@@ -92,7 +87,6 @@ function App() {
           ))}
       </div>
       <TodoForm addTodo={addTodo} />
-      {/* <Footer /> */}
     </div>
   );
 }
