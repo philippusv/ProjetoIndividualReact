@@ -1,54 +1,41 @@
-.label-login {
+.label-cadastro-title {
   font-size: x-large;
-  color: rgb(99, 197, 2);
-  margin: 10px 10px;
+  color: black;
+  margin: 0.625rem 0.625rem;
 }
 
-.btn {
+.btn-cadastro {
   width: 75%;
   color: black;
-  background-color: rgb(99, 197, 2) !important;
-  margin-top: 20px;
+  background-color: #2d39a3 !important;
+  margin-top: 0.313rem;
   transition: 0.2s;
-  letter-spacing: 3px;
+  letter-spacing: 0.188rem;
 }
 
-.botao {
-  color: black;
-}
-
-.btn:hover {
-  box-shadow: 0px 0px 5px whitesmoke;
+.btn-cadastro:hover {
+  box-shadow: 0rem 0rem 0.313rem whitesmoke;
   /* border: none; */
 }
 
-.main-card {
+.main-card-cadastro {
   height: 100vh;
   width: 100vw;
   /* background-color: rgb(0, 0, 0); */
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
+  /* background: #ddd; */
+  /* background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 1) 50%,
-    rgba(65, 65, 65, 1) 100%
-  );
+    rgb(255, 255, 255) 50%,
+    rgb(255, 255, 255) 100%
+  ); */
   display: flex;
   /* flex-direction: row; */
   justify-content: center;
   align-items: center;
-  letter-spacing: 3px;
+  letter-spacing: 0.188rem;
 }
 
-.card-left {
-  font-size: xx-small;
-  width: 50%;
-  height: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-rigth {
+.card-rigth-tamanho-quadrado {
   /* margin-right: 105px; */
   width: 50%;
   height: 80%;
@@ -58,45 +45,68 @@
   flex-direction: column;
 }
 
-.card-login {
+.card-cadastro-quadrado {
   width: 60%;
   height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 20px;
-  background-color: rgb(15, 15, 15);
-  border-radius: 15px;
-  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.164);
+  padding: 1.25rem;
+  background-color: #5f5f5f;
+  border-radius: 0.938rem;
+  box-shadow: 0rem 0rem 1.25rem rgba(255, 255, 255, 0.164);
 }
 
-.textfield {
+.textfield-usuario-cadastro {
   width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: rgb(99, 197, 2);
+  color: black;
   font-weight: 500;
 }
 
-.input-login {
+.textfield-senha-cadastro {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: black;
+  font-weight: 500;
+}
+
+.input-usuario-cadastro {
   width: 100%;
   border: none;
-  border-radius: 2px;
-  padding: 5px 6px 5px 6px;
-  background-color: rgb(156, 156, 156);
+  margin-top: 0.625rem;
+  border-radius: 0.125rem;
+  padding: 0.313rem 0.375rem 0.313rem 0.375rem;
+  background-color: #ebeaea;
   color: black;
   font-size: 10pt;
   box-sizing: border-box;
 }
 
-.input-login:focus {
+.input-senha-cadastro {
+  width: 100%;
+  border: none;
+  margin-top: 0.625rem;
+  border-radius: 0.125rem;
+  padding: 0.313rem 0.375rem 0.313rem 0.375rem;
+  background-color: #ebeaea;
+  color: black;
+  font-size: 10pt;
+  box-sizing: border-box;
+}
+
+.input-usuario-cadastro:focus {
   box-shadow: 0 0 0 0;
   outline: 0;
 }
 
-.error-message {
+.error-message-cadastro {
   color: red;
 }

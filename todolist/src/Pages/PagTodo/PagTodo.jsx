@@ -68,7 +68,7 @@ function App() {
     <div className="app">
       {/* <Nav /> */}
       <h1>Lista de Tarefas</h1>
-      <Search search={search} setSearch={setSearch} />
+      {/* <Search search={search} setSearch={setSearch} /> */}
       <Filter filter={filter} setFilter={setFilter} />
       <div className="todo-list">
         {todos

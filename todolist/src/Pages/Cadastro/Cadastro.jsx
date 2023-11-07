@@ -54,46 +54,40 @@ export default function Login() {
   };
 
   return (
-    <div className="main-card">
-      {/* <div className="card-left">
-        <h1 className="label-login">Espaço para a logo</h1>
-      </div> */}
-      <div className="card-rigth">
-        <form className="card-login">
-          <h1 className="label-login">Bem Vindo!</h1>
-          <div className="textfield">
+    <div className="main-card-cadastro">
+      <div className="card-rigth-tamanho-quadrado">
+        <form className="card-cadastro-quadrado">
+          <h1 className="label-cadastro-title">Bem Vindo!</h1>
+          <div className="textfield-usuario-cadastro">
             <label className="label" htmlFor="usuario">
               Usuário
             </label>
             <input
-              className="input-login"
+              className="input-usuario-cadastro"
               type="text"
               placeholder="Digite seu nome ou email"
               value={login}
               onChange={(e) => setLogin(e.target.value)}
             />
           </div>
-          <div className="textfield">
+          <div className="textfield-senha-cadastro">
             <label className="label" htmlFor="senha">
               Senha
             </label>
             <input
-              className="input-login"
+              className="input-senha-cadastro"
               type="password"
               placeholder="Digite sua senha"
               value={senha}
               onChange={(e) => setSenha(e.target.value)}
             />
           </div>
-          {error && <p className="error-message">{error}</p>}
-          <button className="btn" type="button" onClick={entrar}>
-            {/* <Link to={"/Login"} className="botao"> */}
+          {error && <p className="error-message-cadastro">{error}</p>}
+          <button className="btn-cadastro" type="button" onClick={entrar}>
             Cadastrar
-            {/* </Link> */}
           </button>
         </form>
       </div>
-      {/* <Nav /> */}
     </div>
   );
 }
