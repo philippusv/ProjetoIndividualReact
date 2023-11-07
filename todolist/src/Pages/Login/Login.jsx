@@ -52,44 +52,41 @@ export default function Login() {
   };
 
   return (
-    <div className="main-card">
-      {/* <div className="card-left">
-        <h1 className="label-login">Espaço para a logo</h1>
-      </div> */}
-      <div className="card-rigth">
-        <form className="card-login">
-          <h1 className="label-login">Bem Vindo!</h1>
-          <div className="textfield">
+    <div className="main-card-login">
+      <div className="card-rigth-tamanho-quadrado">
+        <form className="card-login-quadrado">
+          <h1 className="label-login-title">Bem Vindo!</h1>
+          <div className="textfield-usuario-login">
             <label className="label" htmlFor="usuario">
               Usuário
             </label>
             <input
-              className="input-login"
+              className="input-usuario-login"
               type="text"
               placeholder="Digite seu nome ou email"
               value={login}
               onChange={(e) => setLogin(e.target.value)}
             />
           </div>
-          <div className="textfield">
+          <div className="textfield-senha-login">
             <label className="label" htmlFor="senha">
               Senha
             </label>
             <input
-              className="input-login"
+              className="input-senha-login"
               type="password"
               placeholder="Digite sua senha"
               value={senha}
               onChange={(e) => setSenha(e.target.value)}
             />
           </div>
-          {error && <p className="error-message">{error}</p>}{" "}
-          <button className="btn" type="button" onClick={entrar}>
+          {error && <p className="error-message-login">{error}</p>}{" "}
+          <button className="btn-login" type="button" onClick={entrar}>
             Entrar
           </button>
-          <p className="registrar">
+          <p className="registrar-login">
             Não tem uma conta?{" "}
-            <Link to="/cadastro" className="ir">
+            <Link to="/cadastro" className="ir-login">
               Registre-se
             </Link>
           </p>

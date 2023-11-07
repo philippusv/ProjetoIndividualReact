@@ -1,33 +1,33 @@
-.label-login {
+.label-login-title {
   font-size: x-large;
-  color: rgb(99, 197, 2);
+  color: black;
   margin: 10px 10px;
 }
 
-.btn {
+.btn-login {
   width: 75%;
   color: black;
-  background-color: rgb(99, 197, 2) !important;
-  margin-top: 20px;
+  background-color: #2d39a3 !important;
+  margin-top: 0.313rem;
   transition: 0.2s;
   letter-spacing: 3px;
 }
 
-.btn:hover {
+.btn-login:hover {
   box-shadow: 0px 0px 5px whitesmoke;
   /* border: none; */
 }
 
-.main-card {
+.main-card-login {
   height: 100vh;
   width: 100vw;
   /* background-color: rgb(0, 0, 0); */
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
+  background: #ddd;
+  /* background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 1) 50%,
-    rgba(65, 65, 65, 1) 100%
-  );
+    rgb(255, 255, 255) 50%,
+    rgb(255, 255, 255) 100%
+  ); */
   display: flex;
   /* flex-direction: row; */
   justify-content: center;
@@ -35,16 +35,7 @@
   letter-spacing: 3px;
 }
 
-.card-left {
-  font-size: xx-small;
-  width: 50%;
-  height: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-rigth {
+.card-rigth-tamanho-quadrado {
   /* margin-right: 105px; */
   width: 50%;
   height: 80%;
@@ -54,7 +45,7 @@
   flex-direction: column;
 }
 
-.card-login {
+.card-login-quadrado {
   width: 60%;
   height: 60%;
   display: flex;
@@ -62,45 +53,68 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
-  background-color: rgb(15, 15, 15);
+  background-color: #5f5f5f;
   border-radius: 15px;
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.164);
 }
 
-.textfield {
+.textfield-usuario-login {
   width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: rgb(99, 197, 2);
+  color: black;
   font-weight: 500;
 }
 
-.input-login {
+.textfield-senha-login {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: black;
+  font-weight: 500;
+}
+
+.input-usuario-login {
   width: 100%;
   border: none;
+  margin-top: 0.625rem;
   border-radius: 2px;
   padding: 5px 6px 5px 6px;
-  background-color: rgb(156, 156, 156);
+  background-color: #ebeaea;
   color: black;
   font-size: 10pt;
   box-sizing: border-box;
 }
 
-.input-login:focus {
+.input-senha-login {
+  width: 100%;
+  border: none;
+  margin-top: 0.625rem;
+  border-radius: 2px;
+  padding: 5px 6px 5px 6px;
+  background-color: #ebeaea;
+  color: black;
+  font-size: 10pt;
+  box-sizing: border-box;
+}
+
+.input-usuario-login:focus {
   box-shadow: 0 0 0 0;
   outline: 0;
 }
 
-.error-message {
+.error-message-login {
   color: red;
 }
 
-.registrar {
-  color: lawngreen;
+.registrar-login {
+  color: black;
 }
 
-.ir {
+.ir-login {
   color: rgb(255, 0, 255);
 }
