@@ -11,19 +11,19 @@ function App() {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      text: "criar funcionalidade x no sistema",
+      text: "Acordar 6:00 😭",
       category: "Trabalho",
       isCompleted: false,
     },
     {
       id: 2,
-      text: "Ir pra academia",
+      text: "Zerar Elden Ring 🎮",
       category: "Pessoal",
       isCompleted: false,
     },
     {
       id: 3,
-      text: "Estudar React",
+      text: "Estudar JavaScript 🖥️",
       category: "Estudos",
       isCompleted: false,
     },

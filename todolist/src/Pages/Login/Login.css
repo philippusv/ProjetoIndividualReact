@@ -15,21 +15,12 @@
 
 .btn-login:hover {
   box-shadow: 0rem 0rem 0.313rem whitesmoke;
-  /* border: none; */
 }
 
 .main-card-login {
   height: 100vh;
   width: 100vw;
-  /* height: 58.7rem;
-  width: 117.45rem; */
-  /* background-color: rgb(0, 0, 0); */
-  /* background: #ddd; */
-  /* background: linear-gradient(
-    180deg,
-    rgb(255, 255, 255) 50%,
-    rgb(255, 255, 255) 100%
-  ); */
+
   display: flex;
   justify-content: center;
   align-items: center;

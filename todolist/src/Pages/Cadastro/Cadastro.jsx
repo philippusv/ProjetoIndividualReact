@@ -3,7 +3,7 @@ import { useNavigate, useParams, Link } from "react-router-dom";
 import "./Cadastro.css";
 
 const dados = {
-  login: "LucasLatsch",
+  login: "Felipe",
   senha: "123456",
 };
 
